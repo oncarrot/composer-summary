@@ -19,17 +19,22 @@ Zero-friction tool to document your composer dependencies.
 ```
 
 </td>
+</tr>
 
+<tr>
 <td>
-➡️
-</td>
 
+`composer-summary composer.json` ⬇️
+
+</td>
+</tr>
+
+<tr>
 <td>
 
 ![ayy](./demo/ayy.png)
 
 </td>
-
 </tr>
 </tbody>
 </table>
