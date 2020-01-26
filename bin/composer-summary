@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'fileutils'
+require 'json'
+require 'tempfile'
+
+require_relative '../lib/main'
+
+if %w(-h --help help).include?(ARGV[0])
+  puts usage
+  exit(0)
+end
+
+if %w(-v --version).include?(ARGV[0])
+  puts VERSION
+  exit(0)
+end
+
+composer_file, markdown_out = check_args(ARGV)
+
+lock_file(markdown_out) do
+  main(composer_file, markdown_out)
+end
