@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
   gem.files = ['bin/composer-summary'] + Dir['lib/**/*.rb']
   gem.executables = ['composer-summary']
 
-
   gem.test_files = Dir[File.join(__dir__,)]
 
   gem.require_paths = ["lib"]
