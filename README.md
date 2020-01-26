@@ -58,13 +58,13 @@ make install
 ```
 
 ```bash
-./composer-summary --help
+composer-summary --help
 
 # will generate path/to/your/composer.md
-./composer-summary path/to/your/composer.json
+composer-summary path/to/your/composer.json
 
 # generate a markdown file somewhere else
-./composer-summary path/to/your/composer.json path/to/your/docs/muh-composer-deps.md
+composer-summary path/to/your/composer.json path/to/your/docs/muh-composer-deps.md
 ```
 
 If you hate it just uninstall it `gem uninstall composer-summary`
