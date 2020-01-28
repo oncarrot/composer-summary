@@ -12,7 +12,8 @@ Gem::Specification.new do |gem|
   gem.summary = gem.description
   gem.homepage = 'https://github.com/oncarrot/composer-summary'
 
-  gem.files = ['bin/composer-summary'] + Dir['lib/**/*.rb']
+  gem.files = ['bin/composer-summary'] + Dir['{lib,templates}/**/*.{rb,md}']
+
   gem.executables = ['composer-summary']
 
   gem.test_files = Dir[File.join(__dir__,)]
