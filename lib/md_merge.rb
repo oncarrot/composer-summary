@@ -67,7 +67,7 @@ def get_dep_markup(name, content, packagist_packages: [])
 end
 
 def collect_existing_content(section_name, deps, markdown_file)
-  deps_content = deps.keys.sort.to_h { |a| [a, ''] }
+  deps_content = deps.keys.sort.collect { |key| [key, ''] }.to_h
   state = 'seek'
   current_dep = nil
 
