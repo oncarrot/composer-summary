@@ -1,28 +1,28 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    ast (2.4.1)
-    parallel (1.19.2)
-    parser (2.7.2.0)
+    ast (2.4.2)
+    parallel (1.21.0)
+    parser (3.0.2.0)
       ast (~> 2.4.1)
     rainbow (3.0.0)
-    regexp_parser (1.8.2)
+    regexp_parser (2.1.1)
     rexml (3.2.5)
-    rubocop (0.93.1)
+    rubocop (1.22.0)
       parallel (~> 1.10)
-      parser (>= 2.7.1.5)
+      parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
-      regexp_parser (>= 1.8)
+      regexp_parser (>= 1.8, < 3.0)
       rexml
-      rubocop-ast (>= 0.6.0)
+      rubocop-ast (>= 1.12.0, < 2.0)
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-ast (0.8.0)
-      parser (>= 2.7.1.5)
-    rubocop-shopify (1.0.6)
-      rubocop (>= 0.92, < 0.94)
-    ruby-progressbar (1.10.1)
-    unicode-display_width (1.7.0)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.12.0)
+      parser (>= 3.0.1.1)
+    rubocop-shopify (2.2.0)
+      rubocop (~> 1.18)
+    ruby-progressbar (1.11.0)
+    unicode-display_width (2.1.0)
 
 PLATFORMS
   ruby
